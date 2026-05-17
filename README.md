@@ -28,10 +28,10 @@ clean engineering execution.
 
 | Project | Outcome | Stack |
 |---|---|---|
-| [RAG-System](https://github.com/malheasa0t-prog/RAG-System) | Production-style RAG backend for e-commerce support with semantic retrieval, guarded answers, local testing, and evaluation coverage. | Python, LangChain, Supabase pgvector, Groq, OpenRouter, Ollama, Gradio |
-| [tensar](https://github.com/malheasa0t-prog/tensar) | Full-stack commerce and services platform with authentication, serverless APIs, CI/CD, and an AI-assisted support layer. | React, Vite, Supabase, Cloudflare Functions, GitHub Actions, Groq |
-| [PHONE-](https://github.com/malheasa0t-prog/PHONE-) | Computer vision workflow for phone condition and damage detection with training utilities, inference scripts, and evaluation artifacts. | Python, PyTorch, YOLOv11, OpenCV, Jupyter |
-| [car-and-food-clip-model](https://github.com/malheasa0t-prog/car-and-food-clip-model) | CLIP-based image and text retrieval project with dataset preparation, training utilities, and interactive demo tooling. | Python, PyTorch, CLIP, Hugging Face, Gradio |
+| [RAG-System](https://github.com/malheasa0t-prog/RAG-System) | Backend-side RAG assistant for e-commerce support with semantic retrieval, multi-provider LLM routing, guardrails, local chat, Gradio UI, and evaluation scripts. | Python, LangChain, Supabase pgvector, Groq, OpenRouter, Ollama, Gradio |
+| [tensar](https://github.com/malheasa0t-prog/tensar) | Full-stack e-commerce and services platform with authentication, serverless edge APIs, CI/CD, and an AI-powered customer chat agent. | React, Vite, Supabase, Cloudflare Functions, GitHub Actions, Groq |
+| [phone-damage-detection](https://github.com/malheasa0t-prog/phone-damage-detection) | YOLO-based phone damage detection workflow with augmentation, duplicate cleanup, training utilities, inference scripts, and saved evaluation artifacts. | Python, PyTorch, YOLOv11, OpenCV, Jupyter |
+| [car-and-food-clip-model](https://github.com/malheasa0t-prog/car-and-food-clip-model) | Fine-tuned CLIP image-text retrieval project with caption preparation, training scripts, and an interactive Gradio demo. | Python, PyTorch, CLIP, Hugging Face, Gradio |
 
 ## Core Strengths
 
