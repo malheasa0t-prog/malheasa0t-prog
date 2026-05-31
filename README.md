@@ -19,8 +19,9 @@ clean engineering execution.
 - Shipped a full-stack React, Supabase, and Cloudflare platform with CI/CD and
   an AI-powered customer support experience.
 - Developed CLIP- and YOLO-based computer vision projects during a corporate AI
-  internship, including a phone-damage detector that exceeded 95% mAP in
-  real-time inference.
+  internship, including a YOLOv11 phone-damage detector across six condition
+  classes, with reusable augmentation, training, and inference tooling and saved
+  evaluation artifacts.
 - Work comfortably across experimentation, backend integration, deployment,
   technical documentation, and reviewer-friendly repository structure.
 
