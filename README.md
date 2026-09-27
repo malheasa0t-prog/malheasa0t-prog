@@ -1,63 +1,59 @@
 # Mazin Omar Alehiassat
 
-### AI Engineer building RAG systems, computer vision pipelines, and full-stack AI products
+### Junior AI Engineer: LLM applications, retrieval, and computer vision
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mazaenalheasat-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/mazaenalheasat)
 [![Email](https://img.shields.io/badge/Email-malheasa0t%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:malheasa0t@gmail.com)
+[![Website](https://img.shields.io/badge/Website-serva--s.com-555555?style=flat)](https://serva-s.com)
 [![Location](https://img.shields.io/badge/Location-Zarqa%2C%20Jordan-2E8B57?style=flat)](#)
 
-I build practical AI products end to end: retrieval pipelines, evaluation
-tooling, model integrations, APIs, deployment flows, and user-facing
-interfaces. My work is strongest where applied AI meets product delivery and
-clean engineering execution.
+B.Sc. in Artificial Intelligence (June 2026). I build AI features end to end,
+from data and prompts to backend, deployment, and the user interface.
 
-## Selected Impact
+## Serva
 
-- Built a production-style e-commerce RAG assistant with Supabase pgvector,
-  multi-provider LLM routing, prompt-safety guardrails, and local evaluation
-  workflows.
-- Shipped a full-stack React, Supabase, and Cloudflare platform with CI/CD and
-  an AI-powered customer support experience.
-- Developed CLIP- and YOLO-based computer vision projects during a corporate AI
-  internship, including a phone-damage detector that exceeded 95% mAP in
-  real-time inference.
-- Work comfortably across experimentation, backend integration, deployment,
-  technical documentation, and reviewer-friendly repository structure.
+[serva-s.com](https://serva-s.com) is a digital services platform I built:
+460+ services, 3,700+ completed orders, and a 4.6/5 rating from 190+
+reviews. It also has an
+[Android app on Google Play](https://play.google.com/store/apps/details?id=com.serva.platform).
 
-## Featured Work
+The site has a live customer-support AI assistant that handles 30+
+conversations a day.
 
-| Project | Outcome | Stack |
+- Current design: an LLM router picks the relevant catalog category, then a
+  second LLM call answers using only that category's services and
+  owner-approved knowledge. Built with Python on Cloudflare Workers, Supabase
+  Postgres, and the Gemini API.
+- Version 1 was a hybrid RAG pipeline (Gemini embeddings, chunking with
+  overlap, pgvector HNSW semantic search plus trigram search). I replaced it
+  because it confused near-identical plans (for example monthly vs. yearly)
+  and served stale content after catalog edits.
+- An 80+ scenario regression question set is reviewed after prompt changes.
+
+## Projects
+
+| Project | What it is | Stack |
 |---|---|---|
-| [RAG-System](https://github.com/malheasa0t-prog/RAG-System) | Backend-side RAG assistant for e-commerce support with semantic retrieval, multi-provider LLM routing, guardrails, local chat, Gradio UI, and evaluation scripts. | Python, LangChain, Supabase pgvector, Groq, OpenRouter, Ollama, Gradio |
-| [tensar](https://github.com/malheasa0t-prog/tensar) | Full-stack e-commerce and services platform with authentication, serverless edge APIs, CI/CD, and an AI-powered customer chat agent. | React, Vite, Supabase, Cloudflare Functions, GitHub Actions, Groq |
-| [phone-damage-detection](https://github.com/malheasa0t-prog/phone-damage-detection) | YOLO-based phone damage detection workflow with augmentation, duplicate cleanup, training utilities, inference scripts, and saved evaluation artifacts. | Python, PyTorch, YOLOv11, OpenCV, Jupyter |
-| [car-and-food-clip-model](https://github.com/malheasa0t-prog/car-and-food-clip-model) | Fine-tuned CLIP image-text retrieval project with caption preparation, training scripts, and an interactive Gradio demo. | Python, PyTorch, CLIP, Hugging Face, Gradio |
+| [tensar](https://github.com/malheasa0t-prog/tensar) | E-commerce single-page app ([tensr.systems](https://tensr.systems)) with a Groq-powered chat and CI/CD. | React, Vite, Supabase, Cloudflare Pages Functions, Groq, GitHub Actions |
+| [phone-damage-detection](https://github.com/malheasa0t-prog/phone-damage-detection) | YOLOv11 object detection for phone damage, 6 classes. Built during my internship at RAID. | Python, PyTorch, YOLOv11, OpenCV |
+| [car-and-food-clip-model](https://github.com/malheasa0t-prog/car-and-food-clip-model) | CLIP fine-tuned on a curated 200-image dataset, with a Gradio demo. Built during my internship at RAID. | Python, PyTorch, CLIP, Hugging Face, Gradio |
+| [RAG-System](https://github.com/malheasa0t-prog/RAG-System) | An early standalone RAG prototype for Serva support questions (not the live assistant). Keyword and pgvector retrieval, several LLM providers, output guardrails, and rule-based evaluation scripts. | Python, Supabase pgvector, Gemini embeddings, LangChain, Gradio |
 
-## Core Strengths
+## Experience
 
-**AI / ML:** RAG systems, LLM integration, prompt safety, semantic retrieval,
-computer vision, CLIP, YOLO, evaluation workflows.
+**AI & Computer Vision Intern, RAID** (Oct 2025 – Jan 2026): built the phone
+damage detection and CLIP projects above.
 
-**Backend / Data:** Python, SQL, Supabase, pgvector, REST APIs, provider
-routing, environment-based configuration.
+## Skills
 
-**Frontend / Product:** React, Vite, JavaScript, HTML, CSS, Gradio, product
-prototyping, user-facing AI tools.
+**AI / ML:** Python, PyTorch, LLM integration, prompt engineering, RAG and
+retrieval design, embeddings, computer vision, YOLOv11, CLIP, fine-tuning,
+Hugging Face, OpenCV, Gradio
 
-**Engineering Tools:** Git, GitHub Actions, Cloudflare Pages Functions, Docker,
-Jupyter, VS Code.
+**Backend and data:** SQL, FastAPI, Supabase, pgvector, Gemini API, Groq
 
-## How I Work
+**Frontend and mobile:** JavaScript, React, Android
 
-- Turn AI prototypes into structured projects with setup guides and reusable scripts.
-- Build evaluation checks before treating an AI feature as ready.
-- Keep secrets out of the frontend and route sensitive operations through backend or serverless functions.
-- Write documentation that helps reviewers understand the problem, architecture, setup, and tradeoffs quickly.
-
-## Current Focus
-
-- Safer and more reliable RAG systems for customer-support workflows.
-- Computer vision pipelines from data preparation to deployment.
-- Full-stack AI applications that combine useful models with clean product delivery.
+**Infrastructure:** Cloudflare, Docker, GitHub Actions
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=malheasa0t-prog&show_icons=true&theme=default)
