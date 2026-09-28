@@ -3,7 +3,7 @@
 ### Junior AI Engineer: LLM applications, retrieval, and computer vision
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mazaenalheasat-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/mazaenalheasat)
-[![Email](https://img.shields.io/badge/Email-malheasa0t%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:malheasa0t@gmail.com)
+[![Email](https://img.shields.io/badge/Email-malheasa00t%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:malheasa00t@gmail.com)
 [![Website](https://img.shields.io/badge/Website-serva--s.com-555555?style=flat)](https://serva-s.com)
 [![Location](https://img.shields.io/badge/Location-Zarqa%2C%20Jordan-2E8B57?style=flat)](#)
 
